@@ -3,7 +3,7 @@
 Implementation of a cross the road style game using object oriented JavaScript and HTML5 Canvas.
 This site is the third project submission on the Udacity Front-End Developer Nanodegree and first use of JavaScript in a project.
 
-Try it live here: [https://andreasrafn.github.io/MemoryGame/](https://andreasrafn.github.io/MemoryGame/)
+Try it live here: [https://andreasrafn.github.io/ClassicArcadeGame/](https://andreasrafn.github.io/ClassicArcadeGame/)
 The live version features a 9 x 9 grid, 15 enemies and a preset enemy speed range. 
 To generate the game with other values, clone the repository and set game variables in `init` of the `js/engine.js` file before lauching.
 
