@@ -63,7 +63,7 @@ var Engine = (function(global) {
     function init() {
         //set game variables
         //changing these variables can change the game feel and difficulty significantly
-        const numberOfColumns = 7;
+        const numberOfColumns = 9;
         const rowTypes = ["water", "road", "road", "road", "road", "road", "road", "grass", "grass"];
         const numberOfEnemies = 15;
         const numberOfDiamonds = 3;
