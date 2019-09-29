@@ -12,7 +12,7 @@ To generate the game with a different configuration, see [How To Configure](#how
 
 An Internet Browser
 
-## How To Use
+## How To Clone & Run
 
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line, clone like this:
 
@@ -50,9 +50,19 @@ const numberOfEnemies = 15;
 //the number of diamonds placed on the table
 const numberOfDiamonds = 3;
 
-//the enemy speed range - 500 is very fast
+//the enemy speed range 
 const enemyIncrementRange = { min: 50, max: 500 };
 ```
+## How To Play
+
+Use the arrow keys to move the player around the board without hitting any crossing bugs 🐞🐞🐞
+
+Increase your score by: 
+* Reaching the water + 2
+* Picking up diamonds + 1
+
+You score is decreased when:
+* Getting hit by bugs - 2
 
 ## Built With
 
@@ -67,4 +77,4 @@ const enemyIncrementRange = { min: 50, max: 500 };
 
 * Inspired by materials provided by the [Udacity Front-End Developer Nanodegree](https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 * The file `js/resources.js` is provided by Udacity and unchanged
-* Initially the file `js/engine.js` was initially provided by Udacity, but have been changed heavily to support a more generative and object opriented approach
+* Initially the file `js/engine.js` was initially provided by Udacity, but have been changed heavily to support a more generative and object oriented approach
