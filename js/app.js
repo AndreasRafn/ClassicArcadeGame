@@ -3,6 +3,8 @@
  * Execution of the game is managed by the engine code in engine.js
  */
 
+"use strict";
+
 /**
  * A Point in 2D space
  */
