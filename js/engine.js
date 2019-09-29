@@ -63,11 +63,19 @@ var Engine = (function(global) {
     function init() {
         //set game variables
         //changing these variables can change the game feel and difficulty significantly
+        //the number of columns in the board grid
         const numberOfColumns = 9;
+        //the rows represented by their type ("water", "road" or "grass")
+        //for best result the first row type should be "water", and preferably the last one "grass"
         const rowTypes = ["water", "road", "road", "road", "road", "road", "road", "grass", "grass"];
+        //the number of enemies on the table at all times
         const numberOfEnemies = 15;
+        //the number of diamonds placed on the table
         const numberOfDiamonds = 3;
+        //the enemy speed range - 500 is very fast
         const enemyIncrementRange = { min: 50, max: 500 };
+        
+        //these variables are tied to the visual files - do not change
         const cellVisualTemplateSprite = "images/road.png";
         const cellVisualTemplateImage = Resources.get(cellVisualTemplateSprite);
         const cellVisualTemplateDimensions = new Dimensions(cellVisualTemplateImage.width, cellVisualTemplateImage.height);

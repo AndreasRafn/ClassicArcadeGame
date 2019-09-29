@@ -1,3 +1,8 @@
+/* app.js
+ * This file provies the classes representing all game concepts and functionality.
+ * Execution of the game is managed by the engine code in engine.js
+ */
+
 /**
  * A Point in 2D space
  */
